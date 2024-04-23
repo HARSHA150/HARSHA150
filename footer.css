@@ -1,0 +1,48 @@
+/* Footer CSS for better visibility */
+.footer {
+    padding: 50px 0px;
+    background: #eeeaff; /* Light background for high contrast */
+}
+
+.footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+}
+.footer-container p{
+    color: rgb(0,0,0);
+}
+.footer_box {
+    width: 33%; /* Ensures correct division of space */
+}
+
+.footer_title {
+    font-size: 1.2rem;
+    color: var(--heading-color); /* Dark color for titles */
+    margin-bottom: 20px;
+}
+
+.footer_links {
+    list-style-type: none; /* Removes bullet points from list */
+}
+
+.footer_links li a {
+    color: var(--heading-color); /* Dark color for links */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.footer_links li a:hover {
+    color: var(--primary-color); /* Highlight color on hover */
+}
+
+.footer_text {
+    color: #333333; /* Ensures text is clearly visible */
+}
+
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    color: #777; /* Dark gray for copyright text */
+    font-size: 0.9rem;
+}

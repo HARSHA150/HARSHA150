@@ -1,0 +1,53 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px; /* Adjusts padding for the hero section */
+}
+
+.content {
+  flex: 1;
+  padding-right: 50px; /* Adjusts spacing between content and image */
+}
+.hero-container h2{
+  color: #fff;
+}
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Aligns the image to the right */
+}
+
+.image-container img {
+  max-width: 80%; /* Maximum width of the image */
+  height: auto;
+  border-radius: 10px; /* Rounded corners for the image */
+}
+
+.hero-container h2 {
+  font-size: 2em; /* Heading font size */
+  font-weight: 700; /* Ensures bold text */
+  color: #fff; /* A vibrant red for headings */
+}
+
+.hero-container p {
+  font-size: 1.2em; /* Paragraph font size */
+  line-height: 1.6; /* Adjusts line spacing for readability */
+  color: #fff; /* Darker shade of red for paragraphs */
+}
+.hero-container h2 {
+  color: #190101; /* Set the color to white */
+}
+button {
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 1em; /* Button text size */
+  border: none; /* No border for a cleaner look */
+  background-color: #6318d3; /* Red for the button background */
+  color: #200202; /* White text for contrast */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners for the button */
+}
+
+button:hover {
+  background-color: #B03A2E; /* Darker shade of red on hover */
+}
